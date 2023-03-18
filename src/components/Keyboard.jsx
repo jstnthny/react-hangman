@@ -34,7 +34,7 @@ export function Keyboard() {
         <div style={{display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(75px, 1fr))", gap: ".5rem",}}>
             {KEYS.map(key => {
                 return(
-                    <button className={styles.btn} key={key}>{key}</button>
+                    <button className={`${styles.btn}`} key={key}>{key}</button>
                 )
             })}
         </div>
